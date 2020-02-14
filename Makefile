@@ -11,6 +11,6 @@ paper: paper.pdf
 all: paper.pdf
 
 clean:
-	rm -rf *~ *.log *.aux *.bbl *.out *.blg
+	rm -rf *~ *.log *.aux *.bbl *.out *.blg *.synctex.gz
 
 .PHONY: clean all build pdf paper
