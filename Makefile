@@ -1,6 +1,6 @@
 
 paper.pdf: clean paper.tex all.bib
-	pdflatex --synctex=1 paper && bibtex paper
+	pdflatex --synctex=1 paper #&& bibtex paper
 
 build: paper.pdf
 
